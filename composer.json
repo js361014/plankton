@@ -1,5 +1,5 @@
 {
-    "name": "foxdie/plankton",
+    "name": "js361014/plankton",
     "description": "PHP RESTful API microframework",
     "type": "library",
     "require": {
