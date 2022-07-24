@@ -139,6 +139,7 @@ class ClientCredentialsMiddleware implements Middleware{
 		
 		$response
 			->setCode(200)
+			->setContentType(Response::CONTENT_TYPE_JSON)
 			->setContent($data)
 			->setHeader("Cache-Control", "no-store")
 			->setHeader("Pragma", "no-cache");
